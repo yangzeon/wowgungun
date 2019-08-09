@@ -4,6 +4,8 @@
 
 因为我自己被永久封了2个账号了。所以我用了特别的方式。
 
+![独立环境](https://github.com/yangzeon/wowgungun/raw/master/20190809175239.png)
+
 主机A（常用主机）
 
 虚拟机（在主机A里开一个HYPER-V。建个虚拟机）教程 [https://cloud.tencent.com/developer/article/1334301](https://cloud.tencent.com/developer/article/1334301)
