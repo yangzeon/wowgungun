@@ -1,15 +1,21 @@
 # wow小宠物滚滚升级20190809
 
 我这就是为了 **释放双手**. 自动换队.在埃苏纳用玩具道具反复刷
+
 因为我自己被永久封了2个账号了。所以我用了特别的方式。
+
 主机A（常用主机）
+
 虚拟机（在主机A里开一个HYPER-V。建个虚拟机）教程 [https://cloud.tencent.com/developer/article/1334301](https://cloud.tencent.com/developer/article/1334301)
+
 主机B（挂机用/我这是一台没显卡的迷你主机.反正画质全关。能跑的动就行）
 
 找个远程软件.比如MultiDesk
+
 主机A开MultiDesk软件。连接到虚拟机。虚拟机开AHK或者按键精灵反复按。然后开MultiDesk软件连接到主机B。主机B登陆WOW
 
 这样主机B就是一个干净的环境.WOW就无法识别到非法软件.
+
 虚拟机开自动按键.不耽误主机A玩别的。。。如果HYPER-V那里麻烦的话。就需要两个电脑来完成我这个动作。
 
 
@@ -19,10 +25,13 @@
 # 插件
 
 有个ADDONS.ZIP的文件 **建议跟常用插件分开两个文件夹**
+
 解压缩放到 **World of Warcraft\retail_\Interface**
 
 有个R开头的俩文件。如果懒的用我的配置。可以直接拷贝进去。记得备份。记得备份。记得备份。
+
 R文件放到 **X:\World of Warcraft\retail_\WTF\Account\你的游戏ID\SavedVariables**
+
 >  ## ps:所以请关闭所有自动交接任务的插件
 
 
@@ -42,9 +51,13 @@ R文件放到 **X:\World of Warcraft\retail_\WTF\Account\你的游戏ID\SavedVar
 # 太多了。懒的写了
 
 教程请移步 [https://bbs.nga.cn/read.php?tid=15193943](https://bbs.nga.cn/read.php?tid=15193943)
+
 下面的优化版
+
 [http://nga.178.com/read.php?tid=16753294](http://nga.178.com/read.php?tid=16753294)
+
 [http://nga.178.com/read.php?tid=17908680](http://nga.178.com/read.php?tid=17908680)
+
 [http://nga.178.com/read.php?tid=17889097](http://nga.178.com/read.php?tid=17889097)
 
 
