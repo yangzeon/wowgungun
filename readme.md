@@ -66,6 +66,8 @@ Rematch&tdBattlePetScript文件放到 **X:\World of Warcraft\retail_\WTF\Account
 
 [http://nga.178.com/read.php?tid=17889097](http://nga.178.com/read.php?tid=17889097)
 
+## 关于滚尾锚位置及不容易被打死的地点 我喜欢用里面倒数第7和倒数第9.因为达拉然跳下去就是了.[https://bbs.nga.cn/read.php?tid=17429619](https://bbs.nga.cn/read.php?tid=17429619)
+
 ![配置](https://github.com/yangzeon/wowgungun/raw/master/20190809180525.png)
 
 # 我的配置(一般打到6）
