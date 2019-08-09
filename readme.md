@@ -14,6 +14,10 @@
 
 主机A开MultiDesk软件。连接到虚拟机。虚拟机开AHK或者按键精灵反复按。然后开MultiDesk软件连接到主机B。主机B登陆WOW
 
+建议用[ahk](https://www.autohotkey.com/).按键精灵被捆绑了一堆乱七八糟的东西.
+
+我的AHK也放上来了.运行后按F2键.它会间隔1秒来按 【 和 】键.一直到退出
+
 这样主机B就是一个干净的环境.WOW就无法识别到非法软件.
 
 虚拟机开自动按键.不耽误主机A玩别的。。。如果HYPER-V那里麻烦的话。就需要两个电脑来完成我这个动作。
@@ -28,9 +32,9 @@
 
 解压缩放到 **World of Warcraft\retail_\Interface**
 
-有个R开头的俩文件。如果懒的用我的配置。可以直接拷贝进去。记得备份。记得备份。记得备份。
+有个Rematch和tdBattlePetScript。如果懒的用我的配置。可以直接拷贝进去。记得备份。记得备份。记得备份。
 
-R文件放到 **X:\World of Warcraft\retail_\WTF\Account\你的游戏ID\SavedVariables**
+Rematch&tdBattlePetScript文件放到 **X:\World of Warcraft\retail_\WTF\Account\你的游戏ID\SavedVariables**
 
 >  ## ps:所以请关闭所有自动交接任务的插件
 
