@@ -66,9 +66,9 @@ Rematch&tdBattlePetScript文件放到 **X:\World of Warcraft\retail_\WTF\Account
 
 [http://nga.178.com/read.php?tid=17889097](http://nga.178.com/read.php?tid=17889097)
 
+![配置](https://github.com/yangzeon/wowgungun/raw/master/20190809180525.png)
 
-
-# 我的配置
+# 我的配置(一般打到6）
 
     船難俘虜0:305P:222415R:2125L7:212417I:
     船難俘虜1::11242CM:12242A8:212417I:
