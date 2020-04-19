@@ -1,4 +1,4 @@
-# wow小宠物滚滚升级20190809
+# wow小宠物滚滚升级20200419
 
 我这就是为了 **释放双手**. 自动换队.在埃苏纳用玩具道具反复刷
 
@@ -137,7 +137,7 @@ Rematch&tdBattlePetScript文件放到 **X:\World of Warcraft\retail_\WTF\Account
 	ability(地雷區)
 	ability(格林奇的禮物)
 	ability(超級充能) [enemy(#3).active]
-	ability(離子炮) [self.aura(超級充能).exists]
+	ability(離子砲:209)[self.aura(超級充能:207).exists]
 	ability(#1)
 	quit
 
