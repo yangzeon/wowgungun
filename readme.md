@@ -72,21 +72,16 @@ Rematch&tdBattlePetScript文件放到 **X:\World of Warcraft\retail_\WTF\Account
 
 # 我的配置(一般打到6）
 
-    船難俘虜0:305P:222415R:2125L7:212417I:
-    船難俘虜1::11242CM:12242A8:212417I:
-    船難俘虜2::11242CM:12242A8:212417I:
-    船難俘虜3::11242CM:12242A8:212417I:
-    船難俘虜4::21141A5:11272CK:212514A:
-    船難俘虜5::222415R:2125L7:12152FB:
-    船難俘虜6::11141A5:11272CK:212514A:
-    船難俘虜7::11181FS:11171BB:21151C:
-    船難俘虜8::21181FS:111A1BB:21151C:
-    船難俘虜9::11172CK:21292L:111A1BB:
-    船難俘虜9122::122B1BR:11292L:21151F:
-    船難俘虜9912::21271C8:11171BB:21151C:
-    船難俘虜99121::12202IO:12202IO:212514A:
-    船難俘虜999::11242CM:122A15S:12141N6:
-    船難俘虜9999::111A1BB:12181MV:21151C:
+	船難俘虜0:305P:222415R:2125L7:212417I:
+	船難俘虜1::11242CM:12242A8:212417I:
+	船難俘虜2::11242CM:12242A8:212417I:
+	船難俘虜3::11242CM:12242A8:212417I:
+	船難俘虜4::21141A5:11272CK:12202KT:
+	船難俘虜5::222415R:2125L7:12152FB:
+	船難俘虜6::11141A5:11272CK:212514A:
+	船難俘虜7::11181FS:11171BB:21151C:
+	船難俘虜8::21181FS:111A1BB:21151C:
+	船難俘虜9::11172CK:21292L:111A1BB:
 
 前面6个平均70秒。后面几个都是120秒的。努力凑宠物吧。
 
@@ -134,15 +129,17 @@ Rematch&tdBattlePetScript文件放到 **X:\World of Warcraft\retail_\WTF\Account
 
 船難俘虜4
 
-    quit [round = 1 & self.hpp < 100]
-    change(#2) [round = 3]
-    change(#3) [enemy.aura(不死生物).exists]
-    ability(穩紮穩打) [enemy(#2).active]
-    ability(超級充能) [enemy.aura(地下).exists]
-    ability(地雷區)
-    ability(格林奇的禮物) 
-    ability(#1)
-    quit
+	quit [round = 1 & self.hpp < 100]
+	change(#2) [round = 3]
+	change(#3) [enemy.aura(不死生物).exists]
+	standby [self(#3).active & enemy.aura(不死生物).exists]
+	ability(穩紮穩打) [enemy(#2).active]
+	ability(地雷區)
+	ability(格林奇的禮物)
+	ability(超級充能) [enemy(#3).active]
+	ability(離子炮) [self.aura(超級充能).exists]
+	ability(#1)
+	quit
 
 船難俘虜5
 
