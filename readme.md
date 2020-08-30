@@ -1,5 +1,6 @@
 # wow小宠物滚滚升级20200419
 
+
 我这就是为了 **释放双手**. 自动换队.在埃苏纳用玩具道具反复刷
 
 因为我自己被永久封了2个账号了。所以我用了特别的方式。
@@ -39,9 +40,12 @@
 Rematch&tdBattlePetScript文件放到 **X:\World of Warcraft\retail_\WTF\Account\你的游戏ID\SavedVariables**
 
 >  ## ps:所以请关闭所有自动交接任务的插件
-
+##請下載最新的20200830那個版本.
 
 # 准备道具和宏
+
+<details>
+  <summary>船難俘虜  地點和道具</summary>
 
 任务道具的位置：阿苏纳(坐标49.4；45.3)
 
@@ -66,8 +70,14 @@ Rematch&tdBattlePetScript文件放到 **X:\World of Warcraft\retail_\WTF\Account
 ## 关于滚尾锚位置及不容易被打死的地点 我喜欢用里面倒数第7和倒数第9.因为达拉然跳下去就是了.[https://bbs.nga.cn/read.php?tid=17429619](https://bbs.nga.cn/read.php?tid=17429619)
 
 ![配置](https://github.com/yangzeon/wowgungun/raw/master/20190809180525.png)
+</details>
 
-# 我的配置(一般打到6）
+
+# 我的配置
+
+<details>
+  <summary>船難俘虜   <--已經被暴雪砍了.沒經驗了.現在都是冰寶寶了</summary>
+  
 
 	船難俘虜0:305P:222415R:2125L7:212417I:
 	船難俘虜1::11242CM:12242A8:212417I:
@@ -185,3 +195,46 @@ Rematch&tdBattlePetScript文件放到 **X:\World of Warcraft\retail_\WTF\Account
     endif 
     ability(#1)
 
+</details>
+	冰脊寶寶 (NPC#85003)
+
+	1: 艾諾瑪路斯 (2,2,1)
+	2: 熔焰小貓 (2,1,2)
+	3: 暮光幼龍 (1,1,1)
+
+	冰脊寶寶:2J0B:22142OQ:212514A:11172JL:
+
+換隊參數為 
+
+	有效血綫 25%
+	忽略屬性
+	最高血量
+
+冰脊寶寶 的自動代碼
+
+	quit [ self.count <3 ]
+	change(next) [ self.dead ]
+	change(#2) [round=3 & enemy(#1).hp > 517]
+	change(#2) [round=3 & enemy(#2).hp > 728 & enemy(#3).hp > 728]
+	use(奔流:923)
+	change(#3) [enemy(#1).hp <= 517 & enemy(#1).aura(中毒:379).exists]
+	change(#3) [enemy(#1).hp <= 422 & !enemy(#1).aura(中毒:379).exists]
+	use(毒殺計畫:1954)
+	use(虛無新星:2356)
+	use(#1) [enemy.aura(格擋:759).exists]
+	use(暮光隕星:1960) [self(#3).aura(龍類).exists]
+	use(暮光隕星:1960) [enemy(#1).hp <= 281.3 & enemy(#2).hp <= 281.3]
+	use(暮光隕星:1960) [enemy(#1).hp <= 281.3 & enemy(#3).hp <= 281.3]
+	use(暮光隕星:1960) [enemy(#2).hp <= 281.3 & enemy(#3).hp <= 281.3]
+	use(暮光隕星:1960) [enemy(#1).dead & enemy(#2).hp <= 422]
+	use(暮光隕星:1960) [enemy(#1).dead & enemy(#3).hp <= 422]
+	use(暮光隕星:1960) [enemy(#2).dead & enemy(#1).hp <= 422]
+	use(暮光隕星:1960) [enemy(#2).dead & enemy(#3).hp <= 422]
+	use(暮光隕星:1960) [enemy(#3).dead & enemy(#1).hp <= 422]
+	use(暮光隕星:1960) [enemy(#3).dead & enemy(#2).hp <= 422]
+	use(暮光隕星:1960) [enemy(#1).dead & enemy(#3).dead]
+	use(暮光隕星:1960) [enemy(#2).dead & enemy(#3).dead]
+	use(暮光隕星:1960) [enemy(#3).active]
+	use(黑暗烈焰:792) [enemy.type!=小動物]
+	use(#1)
+	standby
