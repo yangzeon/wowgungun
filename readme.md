@@ -54,7 +54,7 @@ Rematch&tdBattlePetScript文件放到 **X:\World of Warcraft\retail_\WTF\Account
 
 法爺開門過去.然後跑尸體.要麽找朋友雙人飛過去.
 
-(https://github.com/yangzeon/wowgungun/raw/master/shuanghuolin.png)
+![地點](https://github.com/yangzeon/wowgungun/raw/master/shuanghuolin.png)
 <details>
   <summary>船難俘虜  地點和道具(這個就別點開看了.已經沒經驗了)</summary>
 
