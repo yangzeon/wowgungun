@@ -1,4 +1,4 @@
-# wow小宠物滚滚升级20200419
+# wow小宠物滚滚升级20200830
 
 
 我这就是为了 **释放双手**. 自动换队.在埃苏纳用玩具道具反复刷
@@ -29,7 +29,7 @@
 ## 利用游戏机制获取利益都将被封号 **真爱自己的账号**
 
 
-# 插件
+# 插件和按鍵
 
 有个ADDONS.ZIP的文件 **建议跟常用插件分开两个文件夹**
 
@@ -39,13 +39,24 @@
 
 Rematch&tdBattlePetScript文件放到 **X:\World of Warcraft\retail_\WTF\Account\你的游戏ID\SavedVariables**
 
+在游戲設置裏.給宏設置一個快捷鍵 ] 再給 游戲選項-插件管理-tdBattlePetScript 裏設置 自動按鍵(auto button hotkey) 設置成 [ 
+因爲我的AHK是這兩個按鍵
+
 >  ## ps:所以请关闭所有自动交接任务的插件
-##請下載最新的20200830那個版本.
+##請下載最新的20200830那個版本.有個函數更新了.之前的用不了.
 
 # 准备道具和宏
 
+	/施放 復活戰寵(戰寵)
+	/target 冰脊寶寶
+
+如何去紅圈地址.最上面那個60.31是刷的最快的.人也最多.
+
+法爺開門過去.然後跑尸體.要麽找朋友雙人飛過去.
+
+(https://github.com/yangzeon/wowgungun/raw/master/shuanghuolin.png)
 <details>
-  <summary>船難俘虜  地點和道具</summary>
+  <summary>船難俘虜  地點和道具(這個就別點開看了.已經沒經驗了)</summary>
 
 任务道具的位置：阿苏纳(坐标49.4；45.3)
 
@@ -76,7 +87,7 @@ Rematch&tdBattlePetScript文件放到 **X:\World of Warcraft\retail_\WTF\Account
 # 我的配置
 
 <details>
-  <summary>船難俘虜   <--已經被暴雪砍了.沒經驗了.現在都是冰寶寶了</summary>
+  <summary>船難俘虜   <--已經被暴雪砍了.沒經驗了.現在都是冰寶寶了 不用點開這個了</summary>
   
 
 	船難俘虜0:305P:222415R:2125L7:212417I:
@@ -238,3 +249,5 @@ Rematch&tdBattlePetScript文件放到 **X:\World of Warcraft\retail_\WTF\Account
 	use(黑暗烈焰:792) [enemy.type!=小動物]
 	use(#1)
 	standby
+
+更多小寵物配置在https://nga.178.com/read.php?tid=22318561
